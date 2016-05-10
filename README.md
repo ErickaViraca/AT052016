@@ -21,6 +21,4 @@ Please Follow the instructions to push your changes :
 - git push
 <<<<<<< HEAD
 
-# Modificado por Lourdes
-=======
->>>>>>> c7ad6559a174918067f47406453fbdde023601fd
+## ericka viraca. modified.
