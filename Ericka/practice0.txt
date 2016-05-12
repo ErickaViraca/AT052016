@@ -1,0 +1,23 @@
+Practice #1
+ErickaViraca
+
+1. What is ruby?
+   Ruby is a powerful programming language is a flexible language of apprehending
+and also to develop it. It allows us to have fewer lines of code in
+As regards the area of automatic testing .
+
+2. What pros/cons you considered from the point explained in the class
+
+las ventajas.-
+It is a simple language to understand and apply for development.
+is a supported language in various web platforms
+need not include libraries , or many lines of code
+
+las desventajas.-
+is not a language suitable for large development projects , as it does not have the
+multiple inheritance .
+
+3. According what we talked today. what are the 3 testing tiers?
+
+the three test levels are level testing service, Backend, and UI Testing
+
