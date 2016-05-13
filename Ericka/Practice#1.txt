@@ -1,0 +1,56 @@
+Research
+
+a) the way to add comments on ruby (inline - multiline)
+	to make an inline comment on ruby we must use the character "#"
+	and to make a multiline comments on ruby, we use the next format with its 
+	characters:
+		
+		=begin
+		comment line
+		comment line
+		=end
+	
+b) when you should use each type
+
+inline comments only when we want to specify a variable or
+a detail of little modification in our code, just a line.
+
+however, multiline comments could be when specified for details
+full functionality of the class in question , for example.
+
+c) create and script using inline-multiline comments
+
+print "first line"
+#in the first line up we are using "print"
+puts "second line"
+#in the second line up we are using "puts"
+print "third line"
+puts "hello"
+print "world"
+puts "BDT"
+print "jalasoft"
+=begin
+	
+that is a script with the objetive to 
+see the difference between "print"
+and "puts" for the BDT class 	
+=end
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+3. Put a  # (octothorpe, hash, pound) character at the beginning of any line. What did it do?
+
+the character "#" in front of the first line, provoked than the line is not shown being part
+of the final results.
+becouse that character convert a execute line to a comment.
+
+-----------------------------------------------------------------------------------------------
+
+first linesecond line
+thrid linehello
+worldBDT
+jalasoft
+
