@@ -1,0 +1,4 @@
+the output show a mistake, which mentions us that the local variable or method
+"valueErrorDisplay " has not been defined. and the only solution that would raise
+for this error, it is to remove the variable, or comment. anyway
+is not useful to us, not to have a value, or participate in any operation.
