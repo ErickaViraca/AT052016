@@ -1,5 +1,7 @@
+
+
 class Case
-	#attr_reader :name
+	attr_accessor :name
 	attr_accessor :age
 
 	def initialize(name, age)
@@ -12,25 +14,24 @@ class Case
 	def calculatedAge
 		#puts "please, insert the age than you need calcaulated"
 		#ageAux = gets.chomp.to_i
-		if @age <= "35"
-			return "@age*2"	#return "#{@age*365*24}" 
-		else
-			puts "the age cannot be calculated"
-		end
+		@age<=35? result=@age*365*24 : result="Age can not be calculated"
+		result
 	end
 	#method that consider the values obtained from
 	#previous. use short-if expression method
 	def clasificationByAge
-		aux = @age/24/365
-		puts res = if 0<=aux<=5 then "you are a baby" end
-		puts res = if 6<=aux<=12 then "you are a child" end
-		puts res = if 13<=aux<=21 then "you are a young people" end	
- 		puts res = if 22<=aux<=35 then "you are a adult" end
- 		
- 	end
-  end
-#end 
+		@age<=5 ? (puts "you are a baby") : 
+		@age<=12 ? (puts "you are a child") : 
+	    @age<=21 ? (puts "you are a young people") : 
+		@age<=35 ? (puts  "you are a adult") :  (puts "Age can not be calculated")
+		
+	 end
+end
 
-Ca=Case.new("Ana", "13")
+puts "Please, insert the name:"
+name=gets.chomp.to_s
+puts "Please, insert the age:"
+age=gets.chomp.to_i
+Ca=Case.new(name, age)
 puts "#{Ca.calculatedAge}"
-#Ca.clasificationByAge
+Ca.clasificationByAge
